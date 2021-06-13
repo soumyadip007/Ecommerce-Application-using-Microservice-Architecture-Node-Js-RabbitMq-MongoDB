@@ -1,0 +1,24 @@
+{
+  "name": "Ecommerce-Application-using-Microservice-Architecture-Node-Js-RabbitMq-MongoDB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "isAuthenticated.js",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyadip007/Ecommerce-Application-using-Microservice-Architecture-Node-Js-RabbitMq-MongoDB.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumyadip007/Ecommerce-Application-using-Microservice-Architecture-Node-Js-RabbitMq-MongoDB/issues"
+  },
+  "homepage": "https://github.com/soumyadip007/Ecommerce-Application-using-Microservice-Architecture-Node-Js-RabbitMq-MongoDB#readme"
+}
