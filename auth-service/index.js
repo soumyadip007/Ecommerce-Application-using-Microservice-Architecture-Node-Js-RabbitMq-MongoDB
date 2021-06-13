@@ -12,7 +12,7 @@ mongoose.connect(
         useUnifiedTopology: true,
     },
     () => {
-        console.log(`Auth-Service DB Connected`);
+        console.log(`Product DB Connected`);
     }
 );
 
