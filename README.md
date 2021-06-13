@@ -5,5 +5,6 @@
   2. Product Service
   3. Order Service
 
-<img src="../flow1" >
-<img src="../flow2" >
+<img src="https://raw.githubusercontent.com/soumyadip007/Ecommerce-Application-using-Microservice-Architecture-Node-Js-RabbitMq-MongoDB/master/flow1.png" >
+
+<img src="https://raw.githubusercontent.com/soumyadip007/Ecommerce-Application-using-Microservice-Architecture-Node-Js-RabbitMq-MongoDB/master/flow1.png" >
