@@ -1,14 +1,14 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const userSchema = new Schema({
+const productSchema = new Schema({
     name: String,
-    email: String,
-    password: String,
+    description: String,
+    price: Number,
     created_at:{
         type: Date,
         default: Date.now(),
     },
 });
 
-module.exports = User = mongoose.model("user", userSchema);
+module.exports = Product = mongoose.model("product", productSchema);
