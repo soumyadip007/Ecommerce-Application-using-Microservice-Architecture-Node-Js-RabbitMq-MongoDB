@@ -82,6 +82,13 @@ curl --location --request POST 'http://localhost:8080/product/create' \
 }'
 
 
-
+curl --location --request POST 'http://localhost:8080/product/buy' \
+--header 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IlNvdW15YWRpcC5ub3RlQGdtYWlsLmNvbSIsIm5hbWUiOiJTb3VteWFkaXAiLCJpYXQiOjE2MjM1ODMxNDh9.lIz7HedpdammEJYqrIjXrW1mcXW_C7y9j6dcHjuCFUY' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "ids": [
+        "60c5e9e31cc72b1a0c4e4974","60c5ecd9ab2ceb1bc4a7c04d"
+    ]
+}'
 
 */
